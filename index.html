@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="root"></div>
+
+
+
+    <!-- <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
+    
+    <script src="assest/js/react.js" crossorigin></script>
+    <script src="assest/js/react-dom.js" crossorigin></script>
+    <script src="assest/js/babel.js"></script>
+
+
+    <!-- <script type="text/babel">
+        ReactDOM.render(<h1>hello world</h1> , document.getElementById("root"));
+    </script> -->
+
+    <script>
+        const element = React.createElement('h1', {className: "hi"}, "سلام دوست من");
+        ReactDOM.render(element , document.getElementById("root"));
+    </script>
+    
+</body>
+</html>
